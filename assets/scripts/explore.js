@@ -56,12 +56,12 @@ function speakText() {
   if (selectedVoice) utterance.voice = selectedVoice;
 
   utterance.onstart = () => {
-    faceImage.src = "/assets/images/smiling-open.png";
+    faceImage.src = "./assets/images/smiling-open.png";
     faceImage.alt = "Open mouthed face";
   };
 
   utterance.onend = () => {
-    faceImage.src = "/assets/images/smiling.png";
+    faceImage.src = "./assets/images/smiling.png";
     faceImage.alt = "Smiling face";
   };
 

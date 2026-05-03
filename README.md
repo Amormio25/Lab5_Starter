@@ -15,3 +15,5 @@ Participants - Amormio (just me)
    basic logic. You simply receive a message as input and output likely something determining its validity (e.g. true if the input is below the max message length).
    This test is reasonable since it tests for one simple thing with no other complex list
    of dependencies on other features/logic.
+
+[Github pages link](https://amormio25.github.io/Lab5_Starter/)
